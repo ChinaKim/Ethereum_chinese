@@ -8,3 +8,7 @@
 
 区块链技术是一种分布式计算架构，其中，每个网络节点都执行并记录相同的事务（这些事务是由组分成块的）。一次只能添加一个区块，每个区块都包含了数字证明，用于验证该区块与其前一区块是否按顺序排列的。这样，区块链中的分布式数据库在全网中保持一致。个人用户与分类账的交互通过强密码保证安全。Nodes that maintain and verify the network are incentivized by mathematically enforced economic incentives coded into the protocol
 
+在比特币中分布式数据库被构想成“账户余额表”（分类账）。比特币的交易是通过比特币token之间的转移来达到个人之间的
+
+
+
