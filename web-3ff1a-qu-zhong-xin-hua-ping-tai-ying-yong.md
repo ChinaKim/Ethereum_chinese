@@ -29,43 +29,5 @@
 
 使用智能合约，公司所有权和资金分配条款在一开始就可以得到明确。智能合约可以写成只有在大多数业主得到批准的情况下才能改变。像这样的智能合约是一个开源软件，所以你不需要雇佣任何开发者，更不需要律师或会计。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+A smart contract like this scales instantly. A couple of teenagers can split revenue from a lemonade stand just as transparently as a sovereign wealth fund can disburse funds to the hundred million citizens who are entitled to it. In both cases the price of this transparency is likely to be fractions of a penny per dollar.
 
