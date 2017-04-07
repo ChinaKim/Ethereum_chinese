@@ -7,4 +7,5 @@
 * [Web 3：去中心化平台应用](web-3ff1a-qu-zhong-xin-hua-ping-tai-ying-yong.md)
 * [选择客户端](xuan-ze-ke-hu-duan.md)
 * [go-ethereum](go-ethereum.md)
+* [账户管理](zhang-hu-guan-li.md)
 
