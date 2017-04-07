@@ -2,7 +2,18 @@
 
 按照以太坊开发者的意图，以太坊就像一块空白的画布，你可以在其之上自由的构建你想要的东西。以太坊协议旨在使它能够很容易的以任意的方式组合核心功能。dapp项目利用以太坊区块链技术构建解决方案，这些方案依赖于去中心化的共识，提供以前所没有的产品与服务。
 
-以太坊最好被看作一个生态系统：
+以太坊最好被看作一个生态系统：核心协议由各种基础设施、代码和社区支持，他们共同组成了以太坊项目。
+
+以太坊同样可以理解成使用以太坊技术的各种项目，如Augur，Digix，Marker等（见Dapps）
+
+更多查看：
+
+* Vitalik Buterin - TNABC 2015:
+  [https://www.youtube.com/watch?v=Fjhe0MVRHO4](https://www.youtube.com/watch?v=Fjhe0MVRHO4)
+* Gavin Wood - DEVCON 1 - Ethereum for Dummies:
+  [https://www.youtube.com/watch?v=U\_LK0t\_qaPo](https://www.youtube.com/watch?v=U_LK0t_qaPo)
+* Ethereum London Meetup \(best detailed here\):
+  [https://www.youtube.com/watch?v=GJGIeSCgskc](https://www.youtube.com/watch?v=GJGIeSCgskc)
 
 
 
