@@ -37,75 +37,7 @@ Homestead标志着由测试版进入了稳定版本。Homestead引入了1150000�
 * EIP-2/3 更多的以“成功/失败”来区分结果，而不是现在的“成功/失败/空合约”的三分法
 * EIP-2/4 eliminates the excess incentive to set the timestamp difference to exactly 1 in order to create a block that has slightly higher difficulty and that will thus be guaranteed to beat out any possible forks. This guarantees to keep block time in the 10-20 range and according to simulations restores the target 15 second blocktime \(instead of the current effective 17s\).
 * EIP-7 makes it much easier for a contract to store another address as a mutable source of code and ‘’pass through’’ calls to it, as the child code would execute in essentially the same environment \(except for reduced gas and increased callstack depth\) as the parent.
-* EIP-8 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* EIP-8 确保所有运行在以太坊网络上的客户端能够应对将来的升级
 
 
 
