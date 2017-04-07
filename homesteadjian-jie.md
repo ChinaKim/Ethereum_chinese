@@ -25,7 +25,7 @@ Homestead标志着由测试版进入了稳定版本。Homestead引入了1150000�
   * 合约创建时如果没有足够的gas支付状态改变的费用，创建将失败，而不是创建一个空的合约。
   * 改变难度，调整算法。
 
-* EIP 7：DELEGATECALL：在0xf4上添加新的操作码DELEGATECALL，新操作码同CALLCODE相似，除了它将发送者和值传播范围由父范围到子范围。该调用和原来的调用有相同的发送者和值。这意味着合约能够存储通行信息，同时遵循它的父合约的msg.sender和msg.value。
+* EIP 7：DELEGATECALL：在0xf4上添加新的操作码DELEGATECALL，新操作码同CALLCODE相似，除了它将发送者和值传播范围由父范围到子范围。该调用和原来的调用有相同的发送者和值。这意味着合约能够存储通行信息，同时遵循它的父合约的msg.sender和msg.value。Great for contracts which create contracts but don’t repeat additional information which saves gas
 
 
 
