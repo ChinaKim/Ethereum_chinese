@@ -53,8 +53,6 @@ $ geth account list
 
 为了用geth创建新的账户，我们需要首先连接geth到console模式（通过geth attach连接console到一个已经运行的实例上）
 
-
-
 ##### 使用Mist 以太坊钱包
 
 不喜欢命令行的人，现在有了GUI界面来操作账户了，这个软件就是Mist以太坊钱包。Mist Ethereum wallet 脱胎于Mist项目。在以太坊基金的支持下发展起来。
@@ -63,7 +61,7 @@ $ geth account list
 
 使用GUI Mist Ethereum wallet创建一个账户在简单不过了。事实上，当你第一次安装这个应用的时候，第一个账户就已经创建好了。
 
-1.下载应用。打开应用将自动同步一份你本机电脑上以太坊区块链副本。  [Download the latest version of the wallet app](https://github.com/ethereum/mist/releases) 
+1.下载应用。打开应用将自动同步一份你本机电脑上以太坊区块链副本。  [Download the latest version of the wallet app](https://github.com/ethereum/mist/releases)
 
 2.解压并运行Ethereum-Wallet文件。
 
@@ -77,13 +75,11 @@ $ geth account list
 
 Mist 以太坊钱包可以使用多重签名来保护你钱包的余额。所谓的多重签名指的是：当从你的账户余额中撤回大额数目时，需要多个账户的授权。在创建多重签名的钱包之前，你需要创建多个账户。
 
-Mist中创建账户很简单。在“Account”一栏，点击“Add Account”，输入密码，确认输入，OK！请创建至少两个账户。第二个账户最好在其他电脑上运行的Mist中创建（理论上来讲，这样更安全）。你仅需要知道你第二个账户的公钥。你的私有账户需要创建多重签名钱包合约，所以它必须和你要生成的多重签名钱包在同一个计算机上、
+Mist中创建账户很简单。在“Account”一栏，点击“Add Account”，输入密码，确认输入，OK！请创建至少两个账户。第二个账户最好在其他电脑上运行的Mist中创建（理论上来讲，这样更安全）。你仅需要知道你第二个账户的公钥。你的私有账户需要创建多重签名钱包合约，所以它必须和你要生成的多重签名钱包在同一个计算机上。
 
+账户安装设置好后，记得备份（如果不备份的话，一旦计算机崩溃，你的额余额将全部丢失）。点击顶部菜单的“Backup”，选择‘keystore’文件夹，反向点击/选中‘copy’。导航到桌面，点击空白区域选‘paste’。将‘keystore’文件压缩成zip或rar文件，复制到U盘或CD/DVD中，或者上传到云盘保存！
 
-
-
-
-
+现在你可以添加大约不少于0.0.2个ETH到你的私有账户（启动创建多重签名钱包的那个账户）。这是当您创建多重签名钱包所需的交易费。同样需要额外的1个（或更多）ETH，因为Mist需要这些ETH确保钱包合约交易有足够的gas去执行。所以至少需要1.02个ETH。
 
 
 
