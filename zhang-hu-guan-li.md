@@ -103,21 +103,51 @@ If you are restoring from backup, simply copy the files inside the ‘Ethereum-k
 
 ##### 使用Eth
 
+涉及到关键管理的每个操作，在eth中都可以以同样的方式使用geth。
 
+以下是账户涉及到操作：
 
+```
+> eth account list  // List all keys available in wallet.
+> eth account new   // Create a new key and add it to the wallet.
+> eth account update [<uuid>|<address>, ... ]  // Decrypt and re-encrypt given keys.
+> eth account import [<uuid>|<file>|<secret-hex>] // Import keys from given source and place in wallet.
+```
 
+以下是钱包涉及到的操作：
 
+```
+> eth wallet import <file>//Import a presale wallet.
+```
 
+注意：‘account import’仅能在导入通用秘钥文件使用。'wallet import'仅能在导入预售钱包时使用。
 
+你也可以从控制台访问关键管理操作（使用内建的控制台或geth attach）：
 
+```
+> web3.personal
+{
+      listAccounts: [],
+      getListAccounts: function(callback),
+      lockAccount: function(),
+      newAccount: function(),
+      unlockAccount: function()
+}
+```
 
+#### Using Ethkey\(废弃\)
 
+#### 导入预售钱包
 
+##### 使用Mist Ethereum wallet
 
+使用GUI Mist 导入预售钱包非常简单。事实上，在安装应用期间你就会被告知是否要导入预售钱包。
 
+注意：Mist 钱包还是beta版，请注意风险。
 
+安装Mist Ethereum wallet的说明，请看：[Creating an account: Using Mist Ethereum wallet](http://www.ethdocs.org/en/latest/account-management.html#using-mist-ethereum-wallet)
 
-
+拖放预售钱包的.json文件到指定区域，输入密码，导入预售账户。
 
 
 
