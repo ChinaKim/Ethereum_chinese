@@ -79,37 +79,65 @@ Mist中创建账户很简单。在“Account”一栏，点击“Add Account”�
 
 账户安装设置好后，记得备份（如果不备份的话，一旦计算机崩溃，你的额余额将全部丢失）。点击顶部菜单的“Backup”，选择‘keystore’文件夹，反向点击/选中‘copy’。导航到桌面，点击空白区域选‘paste’。将‘keystore’文件压缩成zip或rar文件，复制到U盘或CD/DVD中，或者上传到云盘保存！
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 现在你可以添加大约不少于0.0.2个ETH到你的私有账户（启动创建多重签名钱包的那个账户）。这是当您创建多重签名钱包所需的交易费。同样需要额外的1个（或更多）ETH，因为Mist需要这些ETH确保钱包合约交易有足够的gas去执行。所以至少需要1.02个ETH。
+
+当创建一个多重签名钱包时，你需要输入所有与之关联账户的完整地址。建议复制每条地址到一个文本文件中去。每次进入到Mist账户的详情页，在右边栏点击‘copy address’。绝不要手动操作地址，否则很容易出错，那么你的账户余额就有危险了。
+
+准备好创建一个多重签名的钱包吧！在‘Wallet Contracts’一栏下，选择‘Add Wallet Contract’。输入名称，选择私有账户，然后选择‘Multisignature Wallet Contract’。你将会看到如下提示：
+
+“这是一个由X控制的共有账户。你可以每天发送以太\(ether\)到X。超过当日限额的任何交易需要得到X的确认”
+
+Set whatever amount of owners \(accounts\) you are attaching to this multisig wallet, whatever you want for a daily withdrawal limit \(that only requires one account to withdrawal that amount\), and how many owners \(accounts\) are required to approve any withdrawal amount over the daily limit
+
+现在添加先前您复制到文本文档中的账户地址，确认您所有的设置是否正确，点击底部‘create’。然后输入密码，发送交易。之后，在‘Wallet Contracts’部分，显示“creating”。
+
+钱包创建完成后，在屏幕上能看到你的合约地址。选中地址，复制/粘贴到新建文本，命名为Ethereum-Wallet-Address.txt\(或其他名称\),然后保存并将该文本备份。
+
+If you are restoring from backup, simply copy the files inside the ‘Ethereum-keystore-backup’ folder over into the ‘keystore’ folder mentioned in the first section of this walkthrough. FYI, you may need to create the ‘keystore’ folder if it’s a brand new install of Mist on a machine it was never installed on before \(the first time you create an account is when this folder is created\). As for restoring a multisig wallet, instead of choosing ‘Multisignature Wallet Contract’ like we did before when creating it, we merely choose ‘Import Wallet’ instead.
+
+故障排除：
+
+* Mist无法同步。确保你的电脑与NTP服务时间准确，然后重启。
+* 同步后，Mist启动了，但是白屏。可能你正在基于Linux的系统上运行视频驱动程序‘xorg’。尝试替代安装制造商的视频驱动程序。
+* ‘密码错误’提示。这是当前Mist版本上的一个错误提示。重启Mist问题会得到解决（前提是你输入的密码正确）。
+
+##### 使用Eth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
