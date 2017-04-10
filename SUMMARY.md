@@ -8,4 +8,5 @@
 * [选择客户端](xuan-ze-ke-hu-duan.md)
 * [go-ethereum](go-ethereum.md)
 * [账户管理](zhang-hu-guan-li.md)
+* [Ether](ether.md)
 
