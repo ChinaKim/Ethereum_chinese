@@ -18,8 +18,6 @@
 | **milliether \(finney\)** | 1e15 wei | 1,000,000,000,000,000 |
 | **ether** | 1e18 wei | 1,000,000,000,000,000,000 |
 
-
-
 ##### 获取以太币
 
 想要获取以太币，你需要按如下去做：
@@ -63,8 +61,6 @@
 | Yunbi | CNY |
 | Metaexchange | BTC |
 
-
-
 固定利率交易所：
 
 | Exchange |
@@ -94,9 +90,9 @@ Mist Ethereum Wallet
 
 * * [Releases to download](https://github.com/ethereum/mist/releases)
   * [Mist Ethereum Wallet developer preview](https://blog.ethereum.org/2015/09/16/ethereum-wallet-developer-preview/)
-    - foundation blog post
+    * foundation blog post
   * [How to easily set up the Ethereum Mist wallet!](https://www.youtube.com/watch?v=Z6lE0Ctaeqs)
-    - Tutorial by Tommy Economics
+    * Tutorial by Tommy Economics
 * Kryptokit Jaxx
   * [Jaxx main site](http://jaxx.io/)
   * [Mobile release](http://favs.pw/first-ethereum-mobile-app-released/#.VsHn_PGPL5c)
@@ -111,7 +107,7 @@ Mist Ethereum Wallet
   * [Icebox](https://github.com/ConsenSys/icebox)
     by
     [ConsenSys](https://consensys.net/)
-    - Cold storage based on lightwallet with HD wallet library integrated.
+    * Cold storage based on lightwallet with HD wallet library integrated.
   * [Reddit discussion 1](https://www.reddit.com/r/ethereum/comments/45uvmy/offline_cold_storage_question/offline_cold_storage_question)
   * [How to setup a cold storage wallet](https://www.reddit.com/r/ethereum/comments/48wfbv/eli5_how_to_setup_a_cold_storage_wallet_as/)
 * Hardware wallet
@@ -126,7 +122,7 @@ Mist Ethereum Wallet
     [http://blog.ether.camp/post/138376049438/why-brain-wallet-is-the-best](http://blog.ether.camp/post/138376049438/why-brain-wallet-is-the-best)
 * Misc
   * [Kraken Wallet Sweeper Tool](https://www.kraken.com/ether)
-    - Pre-sale wallet import
+    * Pre-sale wallet import
   * [Recommended ways to safely store ether](http://ethereum.stackexchange.com/questions/1239/what-is-the-recommended-way-to-safely-store-ether)
   * [How to buy and store ether](http://sebfor.com/how-to-buy-and-store-ether/)
   * [A laymen’s intro into brute forcing and why not to use brain wallets](http://www.fastcompany.com/3056651/researchers-find-a-crack-that-drains-supposedly-secure-bitcoin-wallets)
@@ -139,33 +135,22 @@ Mist Ethereum Wallet
 
 以太币同样可以通过geth控制台来交易。
 
+```
+> var sender = eth.accounts[0];
+> var receiver = eth.accounts[1];
+> var amount = web3.toWei(0.01, "ether")
+> eth.sendTransaction({from:sender, to:receiver, value: amount})
+```
 
+更多以太币交易信息，请看：[Account Types, Gas, and Transactions](http://www.ethdocs.org/en/latest/contracts-and-transactions/account-types-gas-and-transactions.html#account-types-gas-and-transactions)
 
+在加密货币领域，以太坊是独一无二的，而以太币则是其货币价值的体现，我们通常称作‘gas’。除了交易费用，gas也是每个网络请求的核心部分，发送者需要为计算力的消耗支付费用。gas的花费是动态计算的。基于请求的体积和复杂度乘以当前gas的价格。Its value as a cryptofuel has the effect of increasing the stability and long-term demand for ether and Ethereum as a whole. For more information, see[Account Types, Gas, and Transactions](http://www.ethdocs.org/en/latest/contracts-and-transactions/account-types-gas-and-transactions.html#account-types-gas-and-transactions)
 
+## Gas and ether
 
+gas可以看做是网络资源的固定成本。你希望发送交易的真实成本总是相同的，所以你不希望Gas被调整，但货币通常是波动的。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+所以，取而代之的是，我们发行了ether，它的价值是变化的。如果ether的价格上涨，
 
 
 
